@@ -33,7 +33,7 @@
     },
 
     "scripts": {
-        "install": "node-gyp configure build && node install.js",
-        "test": "node test/test.js"
+        "install": "node-gyp configure build && nodejs install.js",
+        "test": "nodejs test/test.js"
     }
 }
